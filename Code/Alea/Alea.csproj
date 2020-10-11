@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CF5E0A47-D572-43E4-A523-EA0F132AA734}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Alea</RootNamespace>
+    <AssemblyName>Alea</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <AssemblyVersion>2019.6.30.84</AssemblyVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Binary\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Binary\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AleaAboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AleaAboutBox.designer.cs">
+      <DependentUpon>AleaAboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AleaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AleaForm.Designer.cs">
+      <DependentUpon>AleaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordGeneratorDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PasswordGeneratorDialog.designer.cs">
+      <DependentUpon>PasswordGeneratorDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsDialog.Designer.cs">
+      <DependentUpon>SettingsDialog.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AleaAboutBox.resx">
+      <DependentUpon>AleaAboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AleaForm.resx">
+      <DependentUpon>AleaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PasswordGeneratorDialog.resx">
+      <DependentUpon>PasswordGeneratorDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SettingsDialog.resx">
+      <DependentUpon>SettingsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\generate_password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GenerateText.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LanguageLoad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LanguageNew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LanguageSave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CopyToClipboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\F0008.Pikka.Domain\Code\Pikka.Domain.csproj">
+      <Project>{8a43a859-7dea-4259-9151-5304798208c9}</Project>
+      <Name>Pikka.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PikkaLang.Alea\PikkaLang.Alea.csproj">
+      <Project>{511f9737-9eb7-44e9-ad85-15cae0fe6386}</Project>
+      <Name>PikkaLang.Alea</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

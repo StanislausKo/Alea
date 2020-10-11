@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AleaLanguage Name="Cyrillic 01" Version="1.0" LastModified="2019-06-30T14:42:35.2893539+02:00">
+  <!--https://www.sttmedia.com/characterfrequency-russian-->
+  <WordLengthDistribution>
+    <WordLength Value="1" Frequency="0.0294" />
+    <WordLength Value="2" Frequency="0.0588" />
+    <WordLength Value="3" Frequency="0.0882" />
+    <WordLength Value="4" Frequency="0.1176" />
+    <WordLength Value="5" Frequency="0.2353" />
+    <WordLength Value="6" Frequency="0.2941" />
+    <WordLength Value="7" Frequency="0.1471" />
+    <WordLength Value="8" Frequency="0.0294" />
+  </WordLengthDistribution>
+  <PhraseLengthDistribution>
+    <PhraseLength Value="1" Frequency="0.0028" />
+    <PhraseLength Value="2" Frequency="0.0142" />
+    <PhraseLength Value="3" Frequency="0.0284" />
+    <PhraseLength Value="4" Frequency="0.2841" />
+    <PhraseLength Value="5" Frequency="0.2272" />
+    <PhraseLength Value="6" Frequency="0.3409" />
+    <PhraseLength Value="7" Frequency="0.1705" />
+    <PhraseLength Value="8" Frequency="0.0568" />
+    <PhraseLength Value="9" Frequency="0.0142" />
+    <PhraseLength Value="10" Frequency="0.0028" />
+  </PhraseLengthDistribution>
+
+  <Vowels>
+    <Vowel Value="а" Frequency="0.180914042"  />
+    <Vowel Value="е" Frequency="0.207198674"  />
+    <Vowel Value="ё" Frequency="0.00473597"   />
+    <Vowel Value="и" Frequency="0.167890126"  />
+    <Vowel Value="о" Frequency="0.264740706"  />
+    <Vowel Value="у" Frequency="0.052569264"  />
+    <Vowel Value="ы" Frequency="0.055884442"  />
+    <Vowel Value="э" Frequency="0.008524745"  />
+    <Vowel Value="ю" Frequency="0.011129529"  />
+    <Vowel Value="я" Frequency="0.046412503"  />
+  </Vowels>
+
+  <Consonants>
+    <Consonant Value="б"  Frequency="0.036638717" />
+    <Consonant Value="в"  Frequency="0.079839592" />
+    <Consonant Value="г"  Frequency="0.031352534" />
+    <Consonant Value="д"  Frequency="0.056325191" />
+    <Consonant Value="ж"  Frequency="0.018410499" />
+    <Consonant Value="з"  Frequency="0.026977762" />
+    <Consonant Value="й"  Frequency="0.022056143" />
+    <Consonant Value="к"  Frequency="0.060153117" />
+    <Consonant Value="л"  Frequency="0.090411958" />
+    <Consonant Value="м"  Frequency="0.057783449" />
+    <Consonant Value="н"  Frequency="0.123587313" />
+    <Consonant Value="п"  Frequency="0.045023697" />
+    <Consonant Value="р"  Frequency="0.077105359" />
+    <Consonant Value="с"  Frequency="0.09059424" />
+    <Consonant Value="т"  Frequency="0.111009843" />
+    <Consonant Value="ф"  Frequency="0.003827926" />
+    <Consonant Value="х"  Frequency="0.017316806" />
+    <Consonant Value="ц"  Frequency="0.007109005" />
+    <Consonant Value="ч"  Frequency="0.025519504" />
+    <Consonant Value="ш"  Frequency="0.013124316" />
+    <Consonant Value="щ"  Frequency="0.005468465" />
+    <Consonant Value="ъ"  Frequency="0.000364564" />
+  </Consonants>
+
+  <Syllables>
+    <Syllable Value="V" Frequency="0.096153846" />
+    <Syllable Value="CV" Frequency="0.384615385" />
+    <Syllable Value="VC" Frequency="0.288461538" />
+    <Syllable Value="CVC" Frequency="0.230769231" />
+  </Syllables>
+  <InternalPunctuation>
+    <Sign Value=" " Frequency="0.932" />
+    <Sign Value=", " Frequency="0.0466" />
+    <Sign Value="; " Frequency="0.0093" />
+    <Sign Value="-" Frequency="0.0047" />
+    <Sign Value=" - " Frequency="0.0028" />
+    <Sign Value=": " Frequency="0.0047" />
+  </InternalPunctuation>
+  <FinalPunctuation>
+    <Sign Value="." Frequency="0.909" />
+    <Sign Value="!" Frequency="0.0454" />
+    <Sign Value="?" Frequency="0.0454" />
+  </FinalPunctuation>
+</AleaLanguage>

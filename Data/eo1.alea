@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AleaLanguage Name="Esperantoid 01" Version="1.0" LastModified="2019-06-30T14:42:35.2893539+02:00">
+  <!--https://www.sttmedia.com/characterfrequency-esperanto-->
+  <WordLengthDistribution>
+    <WordLength Value="1" Frequency="0.0294" />
+    <WordLength Value="2" Frequency="0.0588" />
+    <WordLength Value="3" Frequency="0.0882" />
+    <WordLength Value="4" Frequency="0.1176" />
+    <WordLength Value="5" Frequency="0.2353" />
+    <WordLength Value="6" Frequency="0.2941" />
+    <WordLength Value="7" Frequency="0.1471" />
+    <WordLength Value="8" Frequency="0.0294" />
+  </WordLengthDistribution>
+  <PhraseLengthDistribution>
+    <PhraseLength Value="1" Frequency="0.0028" />
+    <PhraseLength Value="2" Frequency="0.0142" />
+    <PhraseLength Value="3" Frequency="0.0284" />
+    <PhraseLength Value="4" Frequency="0.2841" />
+    <PhraseLength Value="5" Frequency="0.2272" />
+    <PhraseLength Value="6" Frequency="0.3409" />
+    <PhraseLength Value="7" Frequency="0.1705" />
+    <PhraseLength Value="8" Frequency="0.0568" />
+    <PhraseLength Value="9" Frequency="0.0142" />
+    <PhraseLength Value="10" Frequency="0.0028" />
+  </PhraseLengthDistribution>
+  <Vowels>
+    <Vowel Value="a" Frequency="0.289691497" />
+    <Vowel Value="e" Frequency="0.26109857" />
+    <Vowel Value="i" Frequency="0.22698771" />
+    <Vowel Value="o" Frequency="0.222222222" />
+    <Vowel Value="u" Frequency="0.050326032" />
+  </Vowels>
+
+  <Consonants>
+    <Consonant Value="n"  Frequency="0.129576994" />
+    <Consonant Value="l"  Frequency="0.102992811" />
+    <Consonant Value="s"  Frequency="0.099816084" />
+    <Consonant Value="r"  Frequency="0.098311319" />
+    <Consonant Value="t"  Frequency="0.089951513" />
+    <Consonant Value="k"  Frequency="0.068216017" />
+    <Consonant Value="j"  Frequency="0.055509112" />
+    <Consonant Value="u"  Frequency="0.050326032" />
+    <Consonant Value="m"  Frequency="0.04999164 " />
+    <Consonant Value="d"  Frequency="0.048654071" />
+    <Consonant Value="p"  Frequency="0.048654071" />
+    <Consonant Value="v"  Frequency="0.030262498" />
+    <Consonant Value="g"  Frequency="0.022237084" />
+    <Consonant Value="f"  Frequency="0.017889985" />
+    <Consonant Value="b"  Frequency="0.0172212  " />
+    <Consonant Value="c"  Frequency="0.016719612" />
+    <Consonant Value="ĝ"  Frequency="0.011536532" />
+    <Consonant Value="ĉ"  Frequency="0.010031767" />
+    <Consonant Value="z"  Frequency="0.009028591" />
+    <Consonant Value="ŭ"  Frequency="0.008359806" />
+    <Consonant Value="h"  Frequency="0.007022237" />
+    <Consonant Value="ŝ"  Frequency="0.00601906 " />
+    <Consonant Value="ĵ"  Frequency="0.001504765" />
+    <Consonant Value="ĥ"  Frequency="0.000167196" />
+  </Consonants>
+
+  <Syllables>
+    <Syllable Value="V" Frequency="0.096153846" />
+    <Syllable Value="CV" Frequency="0.384615385" />
+    <Syllable Value="VC" Frequency="0.288461538" />
+    <Syllable Value="CVC" Frequency="0.230769231" />
+  </Syllables>
+  <InternalPunctuation>
+    <Sign Value=" " Frequency="0.932" />
+    <Sign Value=", " Frequency="0.0466" />
+    <Sign Value="; " Frequency="0.0093" />
+    <Sign Value="-" Frequency="0.0047" />
+    <Sign Value=" - " Frequency="0.0028" />
+    <Sign Value=": " Frequency="0.0047" />
+  </InternalPunctuation>
+  <FinalPunctuation>
+    <Sign Value="." Frequency="0.909" />
+    <Sign Value="!" Frequency="0.0454" />
+    <Sign Value="?" Frequency="0.0454" />
+  </FinalPunctuation>
+</AleaLanguage>
